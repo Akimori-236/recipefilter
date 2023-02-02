@@ -6,7 +6,7 @@ public class Recipe {
 
     private String name;
     private List<String> steps;
-    private List<String> ingredients;
+    private List<Ingredient> ingredients;
 
     public String getName() {
         return name;
@@ -24,11 +24,12 @@ public class Recipe {
         this.steps = steps;
     }
 
-    public List<String> getIngredients() {
+    public List<Ingredient> getIngredients() {
         return ingredients;
     }
 
-    public void setIngredients(List<String> ingredients) {
+    public void setIngredients(List<Ingredient> ingredients) {
         this.ingredients = ingredients;
     }
+
 }
